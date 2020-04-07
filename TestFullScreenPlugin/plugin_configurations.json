@@ -1,0 +1,21 @@
+[{
+	"plugin": {
+		"api": {
+			"class_name": "TestFullScreenPluginPlugin.ZappTestFullScreenPluginAdapter"
+		},
+		"author_name": "Mahesh Patil",
+		"author_email": "mahesh.patil1@ltts.com",
+		"manifest_version": "0.0.1",
+		"name": "TestFullScreenPlugin",
+		"description": "testscreenplugin",
+		"identifier": "testscreenplugin",
+		"type": "general",
+		"platform": "ios",
+		"min_zapp_sdk": "12.1.0",
+		"whitelisted_account_ids": [],
+		"dependency_repository_url": [],
+		"dependency_name": "",
+		"dependency_version": ""
+	},
+	"configuration_json": {}
+}]

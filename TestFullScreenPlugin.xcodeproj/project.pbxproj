@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C01DC99A243C89EF0050EB70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01DC999243C89EF0050EB70 /* AppDelegate.swift */; };
+		C01DC99D243C89EF0050EB70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01DC99B243C89EF0050EB70 /* Main.storyboard */; };
+		C01DC9A4243C89EF0050EB70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01DC9A3243C89EF0050EB70 /* ViewController.swift */; };
+		C01DC9A6243C89EF0050EB70 /* plugin_configurations.json in Resources */ = {isa = PBXBuildFile; fileRef = C01DC9A5243C89EF0050EB70 /* plugin_configurations.json */; };
+		C01DC9A9243C89F10050EB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01DC9A8243C89F10050EB70 /* Assets.xcassets */; };
+		C01DC9AC243C89F10050EB70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01DC9AA243C89F10050EB70 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C01DC996243C89EF0050EB70 /* TestFullScreenPlugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFullScreenPlugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01DC999243C89EF0050EB70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C01DC99C243C89EF0050EB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C01DC99F243C89EF0050EB70 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../../Podfile; sourceTree = "<group>"; };
+		C01DC9A0243C89EF0050EB70 /* TestFullScreenPlugin.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = TestFullScreenPlugin.podspec; path = ../../TestFullScreenPlugin.podspec; sourceTree = "<group>"; };
+		C01DC9A2243C89EF0050EB70 /* ZappTestFullScreenPluginAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ZappTestFullScreenPluginAdapter.swift; path = ../../PluginClasses/ZappTestFullScreenPluginAdapter.swift; sourceTree = "<group>"; };
+		C01DC9A3243C89EF0050EB70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C01DC9A5243C89EF0050EB70 /* plugin_configurations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = plugin_configurations.json; path = ../plugin_configurations.json; sourceTree = "<group>"; };
+		C01DC9A7243C89EF0050EB70 /* plugin_manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = plugin_manifest.json; path = ../plugin_manifest.json; sourceTree = "<group>"; };
+		C01DC9A8243C89F10050EB70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C01DC9AB243C89F10050EB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C01DC9AD243C89F10050EB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C01DC993243C89EF0050EB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C01DC98D243C89EF0050EB70 = {
+			isa = PBXGroup;
+			children = (
+				C01DC998243C89EF0050EB70 /* TestFullScreenPlugin */,
+				C01DC997243C89EF0050EB70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C01DC997243C89EF0050EB70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01DC996243C89EF0050EB70 /* TestFullScreenPlugin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C01DC998243C89EF0050EB70 /* TestFullScreenPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				C01DC999243C89EF0050EB70 /* AppDelegate.swift */,
+				C01DC99B243C89EF0050EB70 /* Main.storyboard */,
+				C01DC9A3243C89EF0050EB70 /* ViewController.swift */,
+				C01DC9A8243C89F10050EB70 /* Assets.xcassets */,
+				C01DC9AA243C89F10050EB70 /* LaunchScreen.storyboard */,
+				C01DC9AD243C89F10050EB70 /* Info.plist */,
+				C01DC99E243C89EF0050EB70 /* Zapp-Resources */,
+				C01DC9A1243C89EF0050EB70 /* PluginClasses */,
+			);
+			path = TestFullScreenPlugin;
+			sourceTree = "<group>";
+		};
+		C01DC99E243C89EF0050EB70 /* Zapp-Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C01DC99F243C89EF0050EB70 /* Podfile */,
+				C01DC9A0243C89EF0050EB70 /* TestFullScreenPlugin.podspec */,
+				C01DC9A5243C89EF0050EB70 /* plugin_configurations.json */,
+				C01DC9A7243C89EF0050EB70 /* plugin_manifest.json */,
+			);
+			path = "Zapp-Resources";
+			sourceTree = "<group>";
+		};
+		C01DC9A1243C89EF0050EB70 /* PluginClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C01DC9A2243C89EF0050EB70 /* ZappTestFullScreenPluginAdapter.swift */,
+			);
+			path = PluginClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C01DC995243C89EF0050EB70 /* TestFullScreenPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01DC9B0243C89F10050EB70 /* Build configuration list for PBXNativeTarget "TestFullScreenPlugin" */;
+			buildPhases = (
+				C01DC992243C89EF0050EB70 /* Sources */,
+				C01DC993243C89EF0050EB70 /* Frameworks */,
+				C01DC994243C89EF0050EB70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestFullScreenPlugin;
+			productName = TestFullScreenPlugin;
+			productReference = C01DC996243C89EF0050EB70 /* TestFullScreenPlugin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01DC98E243C89EF0050EB70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mahesh Patil";
+				TargetAttributes = {
+					C01DC995243C89EF0050EB70 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C01DC991243C89EF0050EB70 /* Build configuration list for PBXProject "TestFullScreenPlugin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01DC98D243C89EF0050EB70;
+			productRefGroup = C01DC997243C89EF0050EB70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01DC995243C89EF0050EB70 /* TestFullScreenPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01DC994243C89EF0050EB70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01DC99D243C89EF0050EB70 /* Main.storyboard in Resources */,
+				C01DC9AC243C89F10050EB70 /* LaunchScreen.storyboard in Resources */,
+				C01DC9A9243C89F10050EB70 /* Assets.xcassets in Resources */,
+				C01DC9A6243C89EF0050EB70 /* plugin_configurations.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01DC992243C89EF0050EB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01DC9A4243C89EF0050EB70 /* ViewController.swift in Sources */,
+				C01DC99A243C89EF0050EB70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C01DC99B243C89EF0050EB70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01DC99C243C89EF0050EB70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C01DC9AA243C89F10050EB70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01DC9AB243C89F10050EB70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01DC9AE243C89F10050EB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C01DC9AF243C89F10050EB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01DC9B1243C89F10050EB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestFullScreenPlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaheshPatil.TestFullScreenPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01DC9B2243C89F10050EB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestFullScreenPlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaheshPatil.TestFullScreenPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01DC991243C89EF0050EB70 /* Build configuration list for PBXProject "TestFullScreenPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01DC9AE243C89F10050EB70 /* Debug */,
+				C01DC9AF243C89F10050EB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01DC9B0243C89F10050EB70 /* Build configuration list for PBXNativeTarget "TestFullScreenPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01DC9B1243C89F10050EB70 /* Debug */,
+				C01DC9B2243C89F10050EB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C01DC98E243C89EF0050EB70 /* Project object */;
+}
